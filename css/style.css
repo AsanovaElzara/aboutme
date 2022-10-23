@@ -3,6 +3,9 @@
 header {
     background: black;
 }
+body{
+    min-width: 320px;
+}
 
 * {
     margin: 0;
@@ -57,7 +60,7 @@ header {
     height: 850px;
     background-size: cover;
     background-repeat: no-repeat;
-
+  background-position: center;
 }
 
 .banner__wrap {
@@ -75,8 +78,7 @@ header {
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0em;
-    text-align: left;
-
+    text-align: center;
 }
 
 .banner__btn {
